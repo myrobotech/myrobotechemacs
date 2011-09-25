@@ -20,6 +20,19 @@
      (color-theme-hober)))
 (color-theme-aliceblue)
 
+
+(require 'flymake-shell-settings)
+(add-hook 'sh-mode-hook 'flymake-shell-load)
+
+;;  display the buffer-relative positions of flymake errors and warnings on the fringe
+(require 'rfringe)
+
+(require 'flymake-php-settings)
+(custom-set-variables
+ '(flymake-php-on t))
+
+
+
 (require 'misc-settings)
 (require 'emacs-wiki-settings)
 
