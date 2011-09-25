@@ -1,3 +1,6 @@
 [submodule "modules/php-mode"]
 	path = modules/php-mode
 	url = https://github.com/ejmr/php-mode.git
+[submodule "modules/emacs-wiki-mode"]
+	path = modules/emacs-wiki-mode
+	url = https://github.com/emacsmirror/emacs-wiki-mode.git
