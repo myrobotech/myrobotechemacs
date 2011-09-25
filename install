@@ -1,0 +1,17 @@
+#!/bin/bash
+
+BIN=`dirname "$0"`
+BIN=`cd "$BIN"; pwd`
+echo ${BIN}
+sed -n "1,4p" "${BIN}/.emacs" > "${BIN}/.emacs.changed"
+echo "(defconst myrobotech-emacs-path \"${BIN}/\" \"myrobotech emacs path\")" >> "${BIN}/.emacs.changed"
+sed -n "6,$ p" "${BIN}/.emacs" >> "${BIN}/.emacs.changed"
+dateTime=`date '+%F_%T'`
+
+dotEmacs=~/.emacs
+if [[ -f "$dotEmacs" && ! -L "$dotEmacs" ]]; then
+    mv "$dotEmacs" "$dotEmacs.$dateTime"
+fi
+
+ln -sf "${bin}"/.emacs.changed ~/.emacs
+
