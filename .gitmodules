@@ -4,3 +4,6 @@
 [submodule "modules/emacs-wiki-mode"]
 	path = modules/emacs-wiki-mode
 	url = https://github.com/emacsmirror/emacs-wiki-mode.git
+[submodule "modules/yasnippet"]
+	path = modules/yasnippet
+	url = https://github.com/emacsmirror/yasnippet.git
