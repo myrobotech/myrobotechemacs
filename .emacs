@@ -95,4 +95,12 @@
 (require 'mark-settings)
 
 
+;; 用M-x执行某个命令的时候，在输入的同时给出可选的命令名提示
+(require 'icomplete-settings)
+;;
+;; ;; minibuffer中输入部分命令就可以使用补全
+(unless is-after-emacs-23
+  (partial-completion-mode 1))
+
+
 ;(require 'maxframe-settings)
