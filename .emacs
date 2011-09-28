@@ -56,3 +56,10 @@
 (require 'yasnippet-settings)
 
 (global-linum-mode 1)
+
+
+
+;; for cursor-chg.el
+(require 'cursor-chg)  ; Load this library
+(change-cursor-mode 1) ; On for overwrite/read-only/input mode
+(toggle-cursor-type-when-idle 1) ; On when idle

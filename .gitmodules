@@ -10,3 +10,6 @@
 [submodule "modules/icicles"]
 	path = modules/icicles
 	url = https://github.com/emacsmirror/icicles.git
+[submodule "modules/cursor-chg"]
+	path = modules/cursor-chg
+	url = https://github.com/emacsmirror/cursor-chg.git
