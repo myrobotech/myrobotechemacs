@@ -65,4 +65,4 @@
 (toggle-cursor-type-when-idle 1) ; On when idle
 
 
-(require 'mode-line-settings.el)
+(require 'mode-line-settings)

@@ -166,6 +166,4 @@ mouse-3: Toggle minor modes"
         ":"
         (:eval (or (buffer-file-name) (buffer-name)))))
 
-
 (provide 'mode-line-settings)
-
