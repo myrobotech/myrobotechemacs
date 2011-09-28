@@ -7,6 +7,7 @@
 (defconst myrobotech-emacs-module-path (concat myrobotech-emacs-path "modules/") "myrobotech emacs module path")
 (defconst myrobotech-emacs-misc-path  (concat myrobotech-emacs-path "misc/") "myrobotech emacs misc path")
 (defconst myrobotech-emacs-yasnippet-snippets-path (concat myrobotech-emacs-path "conf.d/snippets/") "myrobotech emacs yasnippet snippets path")
+(defconst myrobotech-emacs-auto-complete-dict-path (concat myrobotech-emacs-path "conf.d/auto-complete/dict/") "myrobotech emacs auto complete dict path")
 
 (load (concat myrobotech-emacs-misc-path "myrobotech-subdirs"))
 (myrobotech-add-subdirs-to-load-path myrobotech-emacs-module-path)
@@ -67,3 +68,5 @@
 
 (require 'mode-line-settings)
 
+
+(require 'auto-complete-settings)
