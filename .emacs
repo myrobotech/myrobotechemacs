@@ -79,3 +79,16 @@
 (require 'grep-settings)
 
 (require 'recent-jump-settings)
+
+(require 'term-settings)
+(require 'multi-term-settings)
+
+
+
+
+
+
+
+
+
+(require 'maxframe-settings)
