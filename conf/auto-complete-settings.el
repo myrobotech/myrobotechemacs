@@ -4,7 +4,7 @@
 (require 'auto-complete-config)
 (ac-config-default)
 (global-auto-complete-mode 1)
-(defun auto-complete-settings ()
+;(defun auto-complete-settings ()
   "Settings for `auto-complete'."
   ;; After do this, isearch any string, M-: (match-data) always
   ;; return the list whose elements is integer
@@ -24,7 +24,7 @@
  
   (setq ac-dwim t)
   (setq ac-candidate-max ac-candidate-menu-height)
-) 
+;) 
  
 
 (provide 'auto-complete-settings)
