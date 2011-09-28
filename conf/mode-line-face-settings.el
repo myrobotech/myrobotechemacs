@@ -9,42 +9,7 @@
         (((class color) (min-colors 16) (background light)) (:foreground "Orchid" :background "yellow"))
         (((class color) (min-colors 16) (background dark)) (:foreground "LightSteelBlue" :background "yellow"))
         (((class color) (min-colors 8)) (:foreground "blue" :background "yellow" :weight bold))
-        (t (:weight bold))))))
-  (if window-system
-      (progn
-        (set-face-foreground 'mode-line "black")
-        (set-face-background 'mode-line "lightgreen")
-        (unless is-before-emacs-21
-          (set-face-foreground 'mode-line-inactive "black")
-          (set-face-background 'mode-line-inactive "white")))
-    (set-face-foreground 'mode-line "green")
-    (set-face-background 'mode-line "black")
-    (unless is-before-emacs-21
-      (set-face-foreground 'mode-line-buffer-id "blue")
-      (set-face-background 'mode-line-buffer-id "yellow")
-      (set-face-foreground 'mode-line-inactive "white")
-      (set-face-background 'mode-line-inactive "black"))
-
-  (custom-set-faces
-   '(header-line
-     ((default
-        :inherit mode-line)
-      (((type tty))
-       :foreground "black" :background "yellow" :inverse-video nil)
-      (((class color grayscale) (background light))
-       :background "grey90" :foreground "grey20" :box nil)
-      (((class color grayscale) (background dark))
-       :background "#D58EFFFFFC18" :foreground "blue")
-      (((class mono) (background light))
-       :background "white" :foreground "black"
-       :inverse-video nil
-       :box nil
-       :underline t)
-      (((class mono) (background dark))
-       :background "black" :foreground "white"
-       :inverse-video nil
-       :box nil
-       :underline t)))))
+        (t (:weight bold)))))
 
 (eval-after-load "mode-line-settings"
   '(progn
