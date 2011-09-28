@@ -43,3 +43,5 @@
 (shell-pop-set-internal-mode-shell "/bin/bash")
 (global-set-key [f9] 'shell-pop)
 
+(require 'icicles)
+(icy-mode 1)

@@ -7,3 +7,6 @@
 [submodule "modules/yasnippet"]
 	path = modules/yasnippet
 	url = https://github.com/emacsmirror/yasnippet.git
+[submodule "modules/icicles"]
+	path = modules/icicles
+	url = https://github.com/emacsmirror/icicles.git
