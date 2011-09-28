@@ -89,7 +89,8 @@
 (when is-after-emacs-24
    (require 'ezbl-settings))
 
-
+(require 'session-settings)
+(require 'wcy-desktop-settings)
 
 
 
