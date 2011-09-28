@@ -16,3 +16,6 @@
 [submodule "modules/auto-complete"]
 	path = modules/auto-complete
 	url = https://github.com/m2ym/auto-complete.git
+[submodule "modules/ezbl"]
+	path = modules/ezbl
+	url = https://github.com/haxney/ezbl.git
