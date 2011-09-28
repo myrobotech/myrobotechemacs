@@ -67,4 +67,3 @@
 
 (require 'mode-line-settings)
 
-(require 'light-symbol-settings)
