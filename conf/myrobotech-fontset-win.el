@@ -193,4 +193,4 @@
       (setq my-latin-size size))
   (huangq-set-font my-latin-size))
 
-(provide 'my-fontset-win)
+(provide 'myrobotech-fontset-win)
