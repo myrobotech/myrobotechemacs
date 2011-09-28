@@ -102,5 +102,7 @@
 (unless is-after-emacs-23
   (partial-completion-mode 1))
 
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
 
 ;(require 'maxframe-settings)
