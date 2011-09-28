@@ -85,10 +85,13 @@
 
 
 
+;; 在Emacs中使用真正的浏览器, 非常震撼
+(when is-after-emacs-24
+   (require 'ezbl-settings))
 
 
 
 
 
 
-(require 'maxframe-settings)
+;(require 'maxframe-settings)
