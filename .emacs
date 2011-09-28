@@ -54,3 +54,5 @@
 (global-hl-line-mode 1)
 
 (require 'yasnippet-settings)
+
+(global-linum-mode 1)
