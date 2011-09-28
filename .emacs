@@ -75,3 +75,7 @@
 
 
 (require 'time-stamp-settings)
+
+(require 'grep-settings)
+
+(require 'recent-jump-settings)
