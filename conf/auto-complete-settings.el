@@ -2,7 +2,7 @@
 
 ;;(add-to-list 'ac-dictionary-directories myrobotech-emacs-auto-complete-dict-path)
 (require 'auto-complete-config)
-;;(ac-config-default)
+(ac-config-default)
 (defun auto-complete-settings ()
   "Settings for `auto-complete'."
   ;; After do this, isearch any string, M-: (match-data) always
