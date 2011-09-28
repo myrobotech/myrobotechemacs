@@ -14,6 +14,8 @@
 (myrobotech-add-subdirs-to-load-path myrobotech-emacs-conf-path)
 (myrobotech-add-subdirs-to-load-path myrobotech-emacs-misc-path)
 
+(require 'util)
+
 (require 'color-theme)
 (eval-after-load "color-theme"
   '(progn
