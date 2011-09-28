@@ -9,7 +9,7 @@
         (((class color) (min-colors 16) (background light)) (:foreground "Orchid" :background "yellow"))
         (((class color) (min-colors 16) (background dark)) (:foreground "LightSteelBlue" :background "yellow"))
         (((class color) (min-colors 8)) (:foreground "blue" :background "yellow" :weight bold))
-        (t (:weight bold)))))
+        (t (:weight bold))))))
 
 (eval-after-load "mode-line-settings"
   '(progn
