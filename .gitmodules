@@ -22,3 +22,6 @@
 [submodule "depends/uzbl"]
 	path = depends/uzbl
 	url = git://github.com/Dieterbe/uzbl.git
+[submodule "modules/icomplete+"]
+	path = modules/icomplete+
+	url = https://github.com/emacsmirror/icomplete-plus.git

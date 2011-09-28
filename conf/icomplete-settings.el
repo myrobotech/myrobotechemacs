@@ -19,13 +19,13 @@
 ;; write  to  the Free  Software  Foundation,  Inc., 51  Franklin
 ;; Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
-;;(require 'my-icomplete+)
+(require 'icomplete+)
 
 (icomplete-mode 1)
 
-;(defun icomplete-settings ()
-;  "Settings for `icomplete'."
-;  (define-key minibuffer-local-completion-map (kbd "SPC") 'minibuffer-complete-word))
+(defun icomplete-settings ()
+  "Settings for `icomplete'."
+  (define-key minibuffer-local-completion-map (kbd "SPC") 'minibuffer-complete-word))
 
 (eval-after-load "icomplete"
   `(icomplete-settings))
