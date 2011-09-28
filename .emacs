@@ -72,3 +72,6 @@
 
 
 (require 'auto-complete-settings)
+
+
+(require 'time-stamp-settings)
