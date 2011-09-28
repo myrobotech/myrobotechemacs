@@ -19,3 +19,6 @@
 [submodule "modules/ezbl"]
 	path = modules/ezbl
 	url = https://github.com/haxney/ezbl.git
+[submodule "depends/uzbl"]
+	path = depends/uzbl
+	url = git://github.com/Dieterbe/uzbl.git
