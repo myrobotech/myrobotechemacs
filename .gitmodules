@@ -13,3 +13,6 @@
 [submodule "modules/cursor-chg"]
 	path = modules/cursor-chg
 	url = https://github.com/emacsmirror/cursor-chg.git
+[submodule "modules/light-symbol"]
+	path = modules/light-symbol
+	url = https://github.com/emacsmirror/light-symbol.git
