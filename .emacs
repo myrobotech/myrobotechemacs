@@ -113,4 +113,4 @@
 
 (require 'recentf-settings)
 
-;(require 'maxframe-settings)
+(require 'maxframe-settings)
