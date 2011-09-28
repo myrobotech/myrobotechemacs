@@ -25,3 +25,6 @@
 [submodule "modules/icomplete+"]
 	path = modules/icomplete+
 	url = https://github.com/emacsmirror/icomplete-plus.git
+[submodule "modules/gnuserv"]
+	path = modules/gnuserv
+	url = https://github.com/emacsmirror/gnuserv.git

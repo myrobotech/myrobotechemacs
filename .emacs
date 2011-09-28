@@ -106,4 +106,11 @@
 (setq uniquify-buffer-name-style 'forward)
 
 (require 'font-settings)
+
+(require 'emacs-server-settings)
+
+(require 'isearch-settings)
+
+(require 'recentf-settings)
+
 ;(require 'maxframe-settings)
