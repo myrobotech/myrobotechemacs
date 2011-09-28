@@ -18,19 +18,19 @@ if NO-RECORD is non-nil, do not record last-region."
         (call-interactively command)
       (funcall command))))
 
-(defmacro def-mark-move-command (command)
-  "Make definition of command which first `mark-command' and then move."
-  `(defun ,(am-intern "mark-and-" command) ()
-     ,(concat "If no `mark-active', then `mark-command'. After do
-that, execute `" command "'.")
-     (interactive)
-     (if (not mark-active) (call-interactively 'mark-command))
-     (call-interactively (intern ,command))
-     (setq last-region-end (point))))
+;(defmacro def-mark-move-command (command)
+;  "Make definition of command which first `mark-command' and then move."
+;  `(defun ,(am-intern "mark-and-" command) ()
+;     ,(concat "If no `mark-active', then `mark-command'. After do
+;that, execute `" command "'.")
+;     (interactive)
+;     (if (not mark-active) (call-interactively 'mark-command))
+;     (call-interactively (intern ,command))
+;     (setq last-region-end (point))))
 
-(apply-args-list-to-fun
- 'def-mark-move-command
- `("next-line" "previous-line" "end-of-buffer" "beginning-of-buffer"))
+;(apply-args-list-to-fun
+; 'def-mark-move-command
+; `("next-line" "previous-line" "end-of-buffer" "beginning-of-buffer"))
 
 (defmacro def-remember-command (command)
   "Make definition of command which remember `poiint'."
@@ -41,11 +41,11 @@ that, execute `" command "'.")
      (if mark-active
          (setq last-region-end (point)))))
 
-(apply-args-list-to-fun
- 'def-remember-command
- `("previous-line" "next-line"
-   "am-forward-word-or-to-word" "forward-word" "backward-word"
-   "forward-char" "backward-char"))
+;(apply-args-list-to-fun
+; 'def-remember-command
+; `("previous-line" "next-line"
+;   "am-forward-word-or-to-word" "forward-word" "backward-word"
+;   "forward-char" "backward-char"))
 
 (define-key-list
  global-map
