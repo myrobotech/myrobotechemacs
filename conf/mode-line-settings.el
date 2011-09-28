@@ -1,9 +1,5 @@
 (require 'mode-line-face-settings)
 
-
-(am-def-active-fun linum-mode linum-mode-active)
-
-
 ;; 在状态栏显示日期时间
 (setq display-time-day-and-date t)
 (display-time)
