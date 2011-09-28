@@ -105,4 +105,5 @@
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
 
+(require 'font-settings)
 ;(require 'maxframe-settings)
