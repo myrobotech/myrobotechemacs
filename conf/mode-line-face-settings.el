@@ -1,6 +1,5 @@
 (defun mode-line-face-settings ()
   "Face settings for `mode-line'."
-  (unless is-before-emacs-21
     (custom-set-faces
      '(mode-line-buffer-id
        ((((class grayscale) (background light)) (:foreground "LightGray" :background "yellow" :weight bold))
@@ -24,7 +23,7 @@
       (set-face-foreground 'mode-line-buffer-id "blue")
       (set-face-background 'mode-line-buffer-id "yellow")
       (set-face-foreground 'mode-line-inactive "white")
-      (set-face-background 'mode-line-inactive "black")))
+      (set-face-background 'mode-line-inactive "black"))
 
   (custom-set-faces
    '(header-line

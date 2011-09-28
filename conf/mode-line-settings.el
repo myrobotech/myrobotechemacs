@@ -40,7 +40,6 @@
 (setq-default mode-line-buffer-identification (propertized-buffer-identification "%b"))
 
 
-(if is-after-emacs-23
     (setq-default
      mode-line-position
      `((:eval (get-lines-4-mode-line))
@@ -97,7 +96,7 @@ mouse-1: Display Line and Column Mode Menu"))))))
                 (propertize " (%l,%c)" 'help-echo ,help-echo)
               (propertize " L%l" 'help-echo ,help-echo))
           (if column-number-mode
-              (propertize " C%c" 'help-echo ,help-echo))))))))
+              (propertize " C%c" 'help-echo ,help-echo)))))))
 
 
 (let* ((help-echo
