@@ -31,6 +31,3 @@
 [submodule "modules/maxframe"]
 	path = modules/maxframe
 	url = https://github.com/rmm5t/maxframe.el.git
-[submodule "modules/cedet"]
-	path = modules/cedet
-	url = https://github.com/emacsmirror/cedet.git
