@@ -113,4 +113,6 @@
 
 (require 'recentf-settings)
 
+(require 'nav)
+
 (require 'maxframe-settings)
