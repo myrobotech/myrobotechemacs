@@ -115,7 +115,7 @@
 
 (require 'nav)
 
- (require 'ecb-autoloads)
+(require 'ecb)
 
 
 (require 'maxframe-settings)
