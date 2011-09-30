@@ -117,6 +117,6 @@
 
 (require 'cedet)
 (global-ede-mode 1)                      ; Enable the Project management system
-(require 'ecb)
+(require 'ecb-settings)
 
 (require 'maxframe-settings)
