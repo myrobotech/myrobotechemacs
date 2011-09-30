@@ -115,6 +115,7 @@
 
 (require 'nav)
 
+(require 'cedet)
 (require 'ecb)
 
 
