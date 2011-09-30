@@ -121,8 +121,7 @@
 (global-srecode-minor-mode 1)            ; Enable template insertion menu
 
 (global-semantic-idle-scheduler-mode 1)
-(global-semanticdb-minor-mode 1)
-(semantic-load-enable-minimum-features 1)
+;(semantic-load-enable-minimum-features 1)
 
 (require 'ecb)
 
